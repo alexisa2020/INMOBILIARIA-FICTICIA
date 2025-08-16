@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inmobiliaria Altamirano — Venta y alquiler</title>
+    <meta name="description" content="Inmobiliaria moderna. Compra y alquiler de casas y apartamentos con asesoría experta y propiedades verificadas." />
+    <meta name="author" content="Propiedades Altamirano />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="canonical" href="www.alexisaltamiranoinmobiliaria.com"/ />
+
+    <meta property="og:title" content="Propiedades Altamirano" />
+    <meta property="og:description" content="Compra y alquiler de propiedades. Atención personalizada y listados verificados." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.alexisaltamiranoinmobiliaria.com"
+    <meta property="og:image" content= "https://i.postimg.cc/tgX6CyG0/logoaltamirano.png"/>
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@altamirano123propi" />
+    
+
+    <!-- Nota: Este HTML usa clases utilitarias (tipo Tailwind). Si no usas Tailwind, añade tu CSS propio. -->
+    <style>
+      body { margin:0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"; background-color: #bacbed !important; }
+      .container { max-width: 1200px; padding: 0 1rem; margin: 0 auto; }
+      .story-link { color: hsl(220 90% 50%); text-decoration: none; }
+      .story-link:hover { text-decoration: underline; }
+      .border { border: 1px solid #e5e7eb; }
+      .bg-card { background: #fff; }
+      .bg-muted\/30 { background: #f6f7f9; }
+      .text-muted-foreground { color: #6b7280; }
+      .font-display { font-family: "Playfair Display", serif; }
+      .shadow-sm { box-shadow: 0 1px 2px rgba(0,0,0,.06); }
+      .rounded-lg { border-radius: .5rem; }
+      .rounded-2xl { border-radius: 1rem; }
+      .btn { display:inline-flex; align-items:center; justify-content:center; gap:.5rem; height:44px; padding:0 1rem; border-radius:.5rem; font-weight:600; text-decoration:none; cursor:pointer; }
+      .btn-outline { border:1px solid #e5e7eb; background:#fff; color:#111827; }
+      .btn-outline:hover { background:#f3f4f6; }
+      .btn-hero { background: linear-gradient(135deg, #2563eb, #60a5fa); color:#fff; box-shadow: 0 10px 30px -10px rgba(37,99,235,.35); }
+      .btn-hero:hover { opacity:.95; }
+      .hover-scale { transition: transform .25s ease; }
+      .hover-scale:hover { transform: scale(1.02); }
+      .animate-enter { animation: fadeInUp .5s ease both; }
+      @keyframes fadeInUp { from { opacity:0; transform: translateY(6px); } to { opacity:1; transform: none; } }
+      .grid { display:grid; gap:1rem; }
+      .card { overflow: hidden; border:1px solid #e5e7eb; border-radius:.75rem; background:#fff; }
+      .card-header { padding:1rem 1.5rem 0; }
+      .card-title { font-size:1.25rem; font-weight:700; margin:0 0 .25rem; }
+      .card-content { padding: .25rem 1.5rem 1rem; display:flex; align-items:center; justify-content:space-between; }
+      .aspect-4-3 { position:relative; width:100%; padding-top:75%; overflow:hidden; }
+      .aspect-4-3 > img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+      .header-sticky { position:sticky; top:0; z-index:40; background:rgba(255,255,255,.8); backdrop-filter: blur(6px); border-bottom:1px solid #e5e7eb; }
+      .footer { border-top:1px solid #e5e7eb; margin-top:4rem; }
+      .section { padding:3rem 0; }
+      @media (min-width: 768px) {
+        .section { padding:4rem 0; }
+        .hero-grid { grid-template-columns: 1fr 1fr; gap:3rem; }
+        .props-grid { grid-template-columns: repeat(2, 1fr); }
+      }
+      @media (min-width: 1024px) {
+        .props-grid { grid-template-columns: repeat(3, 1fr); }
+      }
+    </style>
+  </head>
+
+    <body>
+        <!-- Navbar -->
+        <header class="header-sticky">
+        <nav class="container" style="display:flex; align-items:center; justify-content:space-between; height:64px;">
+            <a href="#" style="display:flex; align-items:center; gap:.5rem; text-decoration:none; color:inherit;">
+            <span class="text-xl font-extrabold tracking-tight font-display" style="font-size:1.25rem; font-weight:800;">Propiedades Altamirano</span>
+            </a>
+            <div class="hidden md:flex items-center gap-8 text-sm" style="display:flex; gap:2rem; font-size:.95rem;">
+            <a href="#propiedades" class="story-link">Propiedades</a>
+            <a href="#nosotros" class="story-link">Nosotros</a>
+            <a href="#contacto" class="story-link">Contacto</a>
+            </div>
+            <div class="flex items-center gap-2">
+            <a href="#contacto" aria-label="Contactar asesor" class="btn btn-outline" style="height:36px;">Contactar</a>
+            </div>
+        </nav>
+        </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="relative overflow-hidden">
+        <div class="container hero-grid" style="display:grid; gap:2.5rem; padding-top:4rem; padding-bottom:6rem;">
+          <div style="display:flex; flex-direction:column; align-items:flex-start; justify-content:center;">
+            <h1 class="font-display" style="font-size:2.5rem; line-height:1.1; font-weight:800;"> Altamirano Propiedades 
+            <p class="mt-4 text-lg text-muted-foreground" style="margin-top:1rem; max-width:60ch;">
+              Compra y alquiler de casas y apartamentos con asesoría experta.
+              Encuentra la propiedad ideal con un servicio cercano y transparente.
+            </p>
+            <div class="mt-8" style="margin-top:4rem; display:flex; flex-wrap:wrap; gap:1.5rem;">
+              <a href="#propiedades" aria-label="Ver propiedades destacadas" class="btn btn-hero hover-scale" style="height: 90px;px; padding:0 1.5rem;">Ver propiedades</a>
+            </div>
+          </div>
+          <div class="relative">
+            <figure class="relative overflow-hidden rounded-2xl border bg-card" style="box-shadow: 0 10px 30px -10px rgba(37,99,235,.25);">
+              <img
+                src="src/assets/casafamiliarconjardin.jpg"
+                alt="Casa moderna con grandes ventanales y jardín, ideal para vivir"
+                class="h-full w-full object-cover"
+                loading="eager"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Propiedades destacadas -->
+      <section id="propiedades" class="section">
+        <div class="container">
+          <header class="mb-8">
+            <h2 class="font-display" style="font-size:2rem; font-weight:700;">Propiedades destacadas</h2>
+            <p class="mt-2 text-muted-foreground" style="max-width:65ch;">Explora una selección curada de oportunidades listas para visitar.</p>
+          </header>
+
+          <div class="grid props-grid">
+            <!-- Card 1 -->
+            <article class="animate-enter">
+              <div class="card hover-scale">
+                <div class="aspect-4-3">
+                  <img src="src\assets\apartamentomoderno.jpg" alt="Sala de estar luminosa con cocina integrada estilo escandinavo" loading="lazy" />
+                </div>
+                <div class="card-header">
+                  <h3 class="card-title">Apartamento moderno</h3>
+                  <p class="text-sm text-muted-foreground">Centro de la ciudad</p>
+                </div>
+                <div class="card-content">
+                  <div class="text-lg" style="font-weight:700;">$235,000</div>
+                  <div class="text-sm text-muted-foreground">2 hab · 2 baños</div>
+                </div>
+                <div style="padding:0 1.5rem 1.25rem;">
+                 <a href="/apartamento.html" aria-label="Consultar sobre Apartamento moderno" class="btn btn-outline" style="width:100%;">Más información</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="animate-enter">
+              <div class="card hover-scale">
+                <div class="aspect-4-3">
+                  <img src="src\assets\casafamiliarconjardin.jpg" alt="Fachada de casa con jardín y cochera en día soleado" loading="lazy" />
+                </div>
+                <div class="card-header">
+                  <h3 class="card-title">Casa familiar con jardin</h3>
+                  <p class="text-sm text-muted-foreground">Barrio residencial</p>
+                </div>
+                <div class="card-content">
+                  <div class="text-lg" style="font-weight:700;">$385,000</div>
+                  <div class="text-sm text-muted-foreground">4 hab · 3 baños</div>
+                </div>
+                <div style="padding:0 1.5rem 1.25rem;">
+                  <a href="casafamiliar.html" aria-label="Consultar sobre Casa familiar con jardín" class="btn btn-outline" style="width:100%;">Más información</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="animate-enter">
+              <div class="card hover-scale">
+                <div class="aspect-4-3">
+                  <img src="src\assets\villacostero.jpg" alt="Villa moderna con terraza y vista al océano azul" loading="lazy" />
+                </div>
+                <div class="card-header">
+                  <h3 class="card-title">Villa costera de lujo</h3>
+                  <p class="text-sm text-muted-foreground">Vista al mar</p>
+                </div>
+                <div class="card-content">
+                  <div class="text-lg" style="font-weight:700;">$1,200,000</div>
+                  <div class="text-sm text-muted-foreground">5 hab · 4 baños</div>
+                </div>
+                <div style="padding:0 1.5rem 1.25rem;">
+                  <a href="villa.html" aria-label="Consultar sobre Villa costera de lujo" class="btn btn-outline" style="width:100%;">Más información</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Nosotros -->
+      <section id="nosotros" class="border" style="background:#f6f7f9;">
+        <div class="container section">
+          
+              <h2 class="font-display" style="font-size:2rem; font-weight:700;">Nos mueve tu próxima historia</h2>
+              <p class="mt-3 text-muted-foreground" style="max-width:65ch;">
+                En Propiedades Altamirano combinamos datos del mercado con un servicio humano y cercano.
+                Te acompañamos en todo el proceso: valoración, financiación y cierre.
+              </p>
+            </div>
+            <ul class="grid" style="gap:1rem;">
+              <li class="rounded-lg border bg-card p-5 shadow-sm"><strong>+500</strong> clientes satisfechos</li>
+              <li class="rounded-lg border bg-card p-5 shadow-sm"><strong>24h</strong> tiempo medio de respuesta</li>
+              <li class="rounded-lg border bg-card p-5 shadow-sm"><strong>100%</strong> propiedades verificadas</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contacto -->
+      <section id="contacto" class="section">
+        <div class="container">
+          <div class="grid" style="gap:2rem; grid-template-columns: 1fr; }
+            @media (min-width: 768px) { grid-template-columns: 1fr 1fr; }">
+            <div>
+              <h2 class="font-display" style="font-size:2rem; font-weight:700;">Conversemos</h2>
+              <p class="mt-2 text-muted-foreground" style="max-width:65ch;">
+                Cuéntanos qué buscas y nuestro equipo te contactará con opciones a medida.
+              </p>
+            </div>
+            <form class="rounded-lg border bg-card p-6 shadow-sm" onsubmit="event.preventDefault(); alert('Consulta enviada');">
+              <div style="display:grid; gap:.5rem; margin-bottom:.75rem;">
+                <label for="name" style="font-size:.9rem; font-weight:600;">Nombre</label>
+                <input id="name" name="name" placeholder="tu Nombre" required style="height:44px; padding:0 .75rem; border:1px solid #e5e7eb; border-radius:.5rem; width:100%;" />
+              </div>
+              <div style="display:grid; gap:.5rem; margin-bottom:.75rem;">
+                <label for="email" style="font-size:.9rem; font-weight:600;">Email</label>
+                <input id="email" name="email" type="email" placeholder="tu@email.com" required style="height:44px; padding:0 .75rem; border:1px solid #e5e7eb; border-radius:.5rem; width:100%;" />
+              </div>
+              <div style="display:grid; gap:.5rem; margin-bottom:.75rem;">
+                <label for="message" style="font-size:.9rem; font-weight:600;">Mensaje</label>
+                <textarea id="message" name="message" rows="4" placeholder="¿Qué tipo de propiedad te interesa?" style="padding:.75rem; border:1px solid #e5e7eb; border-radius:.5rem; width:100%;"></textarea>
+              </div>
+              <button type="submit" class="btn btn-hero" style="width:100%;">Enviar consulta</button>
+              <p class="text-xs text-muted-foreground" style="font-size:.75rem; margin-top:.5rem;">Al enviar aceptas nuestra política de privacidad.</p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container" style="padding:2.5rem 0; display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:1rem; color:#6b7280; font-size:.95rem;">
+        <p>© <span id="year"></span> Propiedades Altamirano Todos los derechos reservados.</p>
+        <nav style="display:flex; gap:1.5rem;">
+          <a href="#nosotros" class="story-link">Nosotros</a>
+          <a href="#contacto" class="story-link">Contacto</a>
+          <a href="#propiedades" class="story-link">Propiedades</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
